@@ -25,5 +25,10 @@ public class App {
     new Estudiante("E013", "Luis",   19, 7.8, "Electronica")
     
 ));
+Ejercicios ej = new Ejercicios(estudiantes);
+List<Estudiante> ordenados = ej.c1();
+for(Estudiante e : ordenados){
+    System.out.println(e);
+}
     }
 }
